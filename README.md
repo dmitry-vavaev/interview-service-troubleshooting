@@ -5,6 +5,7 @@ Try to find and fix as many issues as possible.
 
 Some description and requirements of the service are listed below:
 
+```
 1. The service uses external api to get data. That api is considered as stable. Response time is up to 2 seconds per request.
 2. Logs should be printed to stdout
 3. Service has performance requirements:
@@ -15,3 +16,4 @@ Some description and requirements of the service are listed below:
   4.2 /items - gets data from remote service and provides output as json data.
 5. The service should be delivered as a Docker container image
 6. The service uses ansible playbook to build the image and start container on the same host.
+```
