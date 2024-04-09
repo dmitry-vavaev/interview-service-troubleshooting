@@ -1,0 +1,10 @@
+---
+# This playbook builds and deploys the whole application stack in this site.
+
+- name: apply common configuration to all nodes
+  hosts: localhost
+  remote_user: root
+
+  roles:
+    - build
+	- deploy

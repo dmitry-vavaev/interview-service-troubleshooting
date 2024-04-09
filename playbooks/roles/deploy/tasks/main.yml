@@ -1,0 +1,3 @@
+---
+-name: Deploy app
+ command: docker run app1:prod-latest
