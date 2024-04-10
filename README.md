@@ -1,7 +1,18 @@
 # interview-service-troubleshooting
-Try to find and fix as many issues as possible.
+
+## Task
+
+Tasks for this exercise are below:
+
+1. Service is not able to meet performance requirements. Please find the reason.
+2. Try to find and fix as many issues as possible to make this solution work as mentioned in the description below.
+3. Give recommendations if any to improve quality of the solution.
 
 ## Description
+
+There is a service which provides some HTTP endpoints for the users. It should run as a standalone service inside of docker container.
+Ansible playbooks are used for build and deploy the service.
+
 
 Some description and requirements of the service are listed below:
 
